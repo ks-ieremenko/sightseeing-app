@@ -1,5 +1,7 @@
 # Sightseeing app
 
+The goal of a project is to help users share and find beautiful places for sightseeing in any city. They can view places created by other users and choose the ones they'd love for visiting.
+
 >*server folder*
 * Install dependencies with `npm install`
 * Run the dev server with `npm start`

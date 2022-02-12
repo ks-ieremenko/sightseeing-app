@@ -2,7 +2,6 @@
 
 The goal of a project is to help users share and find beautiful places for sightseeing in any city. They can view places created by other users and choose the ones they'd love for visiting.
 
----
 **Frontend:** React
 
 **Backend:** Express, MySQL+Sequelize

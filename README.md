@@ -2,6 +2,13 @@
 
 The goal of a project is to help users share and find beautiful places for sightseeing in any city. They can view places created by other users and choose the ones they'd love for visiting.
 
+---
+**Frontend:** React
+
+**Backend:** Express, MySQL+Sequelize
+
+---
+
 >*server folder*
 * Install dependencies with `npm install`
 * Run the dev server with `npm start`
@@ -28,6 +35,3 @@ The goal of a project is to help users share and find beautiful places for sight
   - Edit the information of a place
   - View profile, change username 
 
-Backend: express, mySQL+sequelize
-
-Frontend: react

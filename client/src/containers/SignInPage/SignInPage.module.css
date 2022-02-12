@@ -1,0 +1,14 @@
+:global(.card-container.card) {
+    max-width: 380px !important;
+    padding: 40px;
+}
+.img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+.card {
+    border-radius: 2px;
+    box-shadow: 0px 0px 7px rgb(172 102 180);
+}

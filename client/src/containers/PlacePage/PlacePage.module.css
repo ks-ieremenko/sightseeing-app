@@ -1,0 +1,26 @@
+.image {
+    margin: 20px 0;
+    width: 800px;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.backButton {
+    margin: 10px 15px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.editButton {
+    text-align: right;
+}
+
+.description {
+    margin-left: 20px;
+}

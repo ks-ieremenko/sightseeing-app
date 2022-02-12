@@ -1,0 +1,39 @@
+.deleteBtn,
+.deleteBtn:focus {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.deleteBtn,
+.deleteBtn:hover,
+:global(p:after) {
+    width: 24px;
+    height: 24px;
+}
+
+.deleteBtn {
+    background: url("./img/delete.png");
+    background-size: cover;
+}
+
+.deleteBtn:hover {
+    background: url("./img/delete-hover.png");
+    background-size: cover;
+}
+
+.td_button {
+    text-align: center;
+}
+
+.admin_text {
+    margin: 0;
+    color: #70c23c;
+    font-weight: 700;
+}
+
+:global(legend) {
+    float: none;
+}

@@ -1,0 +1,47 @@
+nav {
+    background-color: #afaeae;
+    padding: 10px 0;
+}
+.list__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.img {
+    height: 28px;
+    vertical-align: middle;
+}
+
+.list__container a {
+    display: block;
+    min-width: 70px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.img_link a {
+    min-width: 0;
+    padding-left: 10px;
+}
+.list__container :global(a.active) {
+    color: lightgreen;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.left,
+.right {
+    display: flex;
+    align-items: center;
+}
+.right {
+    margin-right: 20px;
+}

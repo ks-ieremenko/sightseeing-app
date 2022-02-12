@@ -1,0 +1,23 @@
+.div_input > input:focus {
+    outline: 0;
+}
+.div_input {
+    display: flex;
+    align-items: center;
+}
+.div_input > input {
+    margin-right: 10px;
+}
+:global(.form-control) {
+    width: auto;
+}
+:global(.alert) {
+    padding: 5px 15px;
+    margin: 0 7px;
+    border: 0;
+    opacity: 1;
+    font-size: 14px;
+}
+:global(.btn) {
+    margin: 0 6px;
+}

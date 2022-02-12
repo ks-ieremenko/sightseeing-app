@@ -1,0 +1,9 @@
+body {
+    background-image: url('./static/blue_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}

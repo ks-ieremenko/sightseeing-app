@@ -1,0 +1,40 @@
+/* :global(.table) {
+    background-color: white;
+}
+.deleteBtn,
+.deleteBtn:focus {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+.deleteBtn > div,
+.deleteBtn > div:hover,
+:global(p:after) {
+    width: 24px;
+    height: 24px;
+}
+.deleteBtn > div {
+    background: url(./img/delete.svg);
+    background-size: cover;
+}
+.deleteBtn > div:hover {
+    background: url(./img/delete-hover.svg);
+    background-size: cover;
+}
+.td_button {
+    text-align: center;
+} */
+/* .admin_text {
+    margin: 0;
+    color: #70c23c;
+    font-weight: 700;
+    justify-content: space-around;
+    display: flex;
+}
+:global(p:after) {
+    content: '';
+    background-repeat: no-repeat;
+    background: url('./img/check.svg');
+} */

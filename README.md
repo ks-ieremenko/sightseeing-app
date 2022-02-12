@@ -1,4 +1,4 @@
-# sightseeing-app
+# Sightseeing app
 
 >*server folder*
 * Install dependencies with `npm install`
